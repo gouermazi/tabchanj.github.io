@@ -2,6 +2,11 @@ body,html{
     width: 100%;
     height: 100%;
     margin: 0;
+    background-image: url("../image/bg.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 header{
     width: 100%;
@@ -12,6 +17,7 @@ header{
     text-align: center;
     position: absolute;
     top: 0;
+    opacity: 0.5;
 }
 footer{
     height: 30px;
@@ -19,10 +25,13 @@ footer{
     background-color: silver;
     position: absolute;
     bottom: 0;
-
+    opacity: 0.5;
+    text-align: center;
 }
 
 #middle{
-    background-image: url("../image/bg.jpg");
-    background-color: #cccccc;
+    position: absolute;
+    top: 50px;
+    bottom: 30px;
+    width: 100%;
 }
